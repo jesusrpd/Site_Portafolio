@@ -29,7 +29,7 @@ const Portafolio = ()=>{
 
     return(
         <main>
-            <h2 className='text-white text-center font-bold text-3xl pt-32 mb-4 md:mb-10'>Portafolio</h2>
+            <h2 className='text-white text-center font-bold text-3xl pt-14 mb-4 md:mb-10'>Portafolio</h2>
             <div className='flex flex-col w-full px-4 md:flex-row flex-wrap justify-center'>
             {proyectos.map( p =>
                 <CardProyecto key={p.id} p={p}/>
