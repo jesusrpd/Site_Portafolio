@@ -1,4 +1,5 @@
 import React from "react"
+import Contacto from "./components/Contacto";
 import Info from "./components/Info";
 import Nav from "./components/Nav";
 import Portafolio from "./components/Portafolio";
@@ -15,6 +16,7 @@ const App = ()=>(
         <Portafolio/>
         <Trayectoria/>
         <Skills/>
+        <Contacto/>
         <Redes/>
     </main>
 
