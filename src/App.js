@@ -1,6 +1,7 @@
 import React from "react"
 import Info from "./components/Info";
 import Nav from "./components/Nav";
+import Portafolio from "./components/Portafolio";
 import Redes from "./components/Redes";
 import SobreMi from "./components/SobreMi";
 
@@ -10,6 +11,7 @@ const App = ()=>(
         <Info/>
         <Redes/>
         <SobreMi/>
+        <Portafolio/>
     </main>
 
 );
