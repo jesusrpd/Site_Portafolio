@@ -10,11 +10,11 @@ const Nav = ()=>{
     const handleClick = () => setClose(!close)
 
     return(
-        <nav className='flex flex-wrap items-center sm:py-5 md:py-10 sm:px-5 md:px-10 justify-between'>
+        <nav className='flex flex-wrap items-center justify-between py-4 px-5 md:px-32 md:py-12'>
             <LogoIcon/>
             <CloseIcon className={close?'':'hidden'} onClick={handleClick}/>
-            <MenuIcon className={close?'hidden':'md:hidden sm:inline cursor-pointer'} onClick={handleClick}/>
-            <ul className={close?'flex flex-col ease-in-out duration-500 w-full h-screen mt-16 items-center':'flex items-center sm:hidden md:flex'}>
+            <MenuIcon className={close?'hidden':'cursor-pointer lg:hidden'} onClick={handleClick}/>
+            <ul className={close?'w-screen flex flex-col h-screen items-center pt-20':'hidden lg:flex'}>
                 <li className={close?'mb-7':''}>
                     <a className='text-white mx-5 link-underline inline-block' href="#">Inicio</a>
                 </li>
