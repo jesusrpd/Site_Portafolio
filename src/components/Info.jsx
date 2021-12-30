@@ -3,7 +3,7 @@ import perfilImg from '../assets/img/perfil.png'
 
 const Info = ()=>(
 
-    <header className='pt-5 md:px-32 md:flex-row-reverse md:flex md:justify-between items-center'>
+    <header className='pt-16 md:px-32 md:flex-row-reverse md:flex md:justify-between items-center'>
         <div>
             <img className='w-40 mb-4 m-auto md:w-96 md:mb-0' src={perfilImg} alt="foto de perfil" />
         </div>
