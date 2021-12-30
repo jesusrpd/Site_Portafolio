@@ -1,5 +1,6 @@
 import React from "react"
 import Contacto from "./components/Contacto";
+import Footer from "./components/Footer";
 import Info from "./components/Info";
 import Nav from "./components/Nav";
 import Portafolio from "./components/Portafolio";
@@ -18,6 +19,7 @@ const App = ()=>(
         <Skills/>
         <Contacto/>
         <Redes/>
+        <Footer/>
     </main>
 
 );
