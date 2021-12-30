@@ -1,8 +1,10 @@
 import React from "react"
+import Nav from "./components/Nav";
 
 const App = ()=>(
-
-<h1 className="text-red-500 m-6">App</h1>
+    <main className="bg-gradient-to-r from-black to-greyP blackP">
+        <Nav/>
+    </main>
 
 );
 

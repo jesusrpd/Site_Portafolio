@@ -1,5 +1,4 @@
 const path = require('path')
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const config = () => {
     return {
@@ -15,6 +14,9 @@ const config = () => {
             open: true
         },
         devtool: 'source-map',
+        resolve: {
+            extensions: [".js",".jsx","json"]
+        },
         module: {
             rules: [
                 {
@@ -30,14 +32,12 @@ const config = () => {
                     test: /\.css$/i,
                     use: ['style-loader', 'css-loader', 'postcss-loader'],
                 },
+                {
+                    test: /\.svg$/,
+                    use: ['@svgr/webpack', 'url-loader']
+                }
             ]
         },
-        plugins: [
-            new MiniCssExtractPlugin({
-                filename: '[name].bundle.css',
-                chunkFilename: '[id].css'
-            })
-        ]
     }
 }
 

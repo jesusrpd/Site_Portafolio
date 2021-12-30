@@ -1,3 +1,19 @@
+/*Modules Tailwindcss*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*My transitions and animations*/
+.link-underline::after{
+    content: ' ';
+    width: 0;
+    height: 3px;
+    display: block;
+    background-color: white;
+    transition: width .3s ease-in-out;
+}
+
+.link-underline:hover::after{
+    width: 100%;
+    transition: width .3s ease-in-out;
+}
