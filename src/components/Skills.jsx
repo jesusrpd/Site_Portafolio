@@ -15,7 +15,7 @@ import ExpressIcon from '../assets/SVG/express.svg'
 
 const Skills = ()=>(
 
-<main className='pt-32'>
+<main id='skills' className='pt-32 bg-misc-5'>
     <h2 className='text-white text-center font-bold text-3xl pt-10 mb-4 md:mb-10'>Habilidades</h2>
     <div className='flex items-center px-4 flex-wrap justify-center'>
         <img src={HtmlIcon} alt="icono de una habilidad" className='w-20 md:m-5 md:w-24' />

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SobreMi = ()=>(
-    <main>
+    <main id='sobremi' className='bg-misc-2 md:pt-36 md:pb-14'>
         <h2 className='text-white text-center font-bold text-3xl pt-32 mb-4 md:mb-10'>Sobre Mí</h2>
         <div className='px-8 md:px-52 lg:px-72'>
             <p className='text-white text-base text-center leading-8'>Soy una persona responsable, comprometida con mis metas para lograr y seguir creciendo en mi día a día.

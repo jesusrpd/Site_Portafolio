@@ -12,9 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@svgr/webpack": "^6.1.2",
     "autoprefixer": "^10.4.1",
+    "axios": "^0.24.0",
     "css-loader": "^6.5.1",
+    "emailjs-com": "^3.2.0",
     "postcss": "^8.4.5",
     "postcss-loader": "^6.2.1",
     "react": "^17.0.2",

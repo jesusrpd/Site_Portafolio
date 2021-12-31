@@ -6,7 +6,7 @@ import LinkedinIcon from '../assets/SVG/linkedin.svg'
 
 const Footer = ()=>(
 
-    <footer className='mt-14 bg-white flex flex-col items-center px-6 md:flex-row'>
+    <footer className='bg-misc-6 mt-14 bg-white flex flex-col md:justify-around items-center px-6 md:flex-row'>
         <div className='my-5 md:mx-4'>
             <p className='font-bold text-center'>jesusrodrigo881@gmail.com</p>
             <p className='font-bold text-center'>MÉXICO, CDMX.</p>
@@ -19,10 +19,10 @@ const Footer = ()=>(
         <div className='my-5 md:mx-4'>
             <h3 className='text-center font-bold mb-5'>Redes sociales:</h3>
             <div className='flex items-center flex-wrap justify-center'>
-                <img src={FacebookIcon} alt="Icono de una red social" className='m-2' />
-                <img src={InstagramIcon} alt="Icono de una red social" className='m-2' />
-                <img src={GitHubIcon} alt="Icono de una red social" className='m-2' />
-                <img src={LinkedinIcon} alt="Icono de una red social" className='m-2' />
+                <a href="https://www.facebook.com/profile.php?id=100008217585249" target="_blank"><img src={FacebookIcon} alt="Icono de una red social" className='m-2' /></a>
+                <a href="https://www.instagram.com/jesusjrpd" target="_blank"><img src={InstagramIcon} alt="Icono de una red social" className='m-2' /></a>
+                <a href="https://github.com/jesusrpd" target="_blank"><img src={GitHubIcon} alt="Icono de una red social" className='m-2' /></a>
+                <a href="https://www.linkedin.com/in/jesus-rodrigo/" target="_blank"><img src={LinkedinIcon} alt="Icono de una red social" className='m-2' /></a>
             </div>
         </div>
     </footer>

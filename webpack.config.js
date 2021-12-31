@@ -2,7 +2,7 @@ const path = require('path')
 
 const config = () => {
     return {
-        entry: './src/index.js',
+        entry: ['@babel/polyfill', './src/index.js'],
         output: {
             path: path.resolve(__dirname, 'build'),
             filename: 'main.js'
@@ -11,7 +11,10 @@ const config = () => {
             static: path.join(__dirname, 'build'),
             compress: true,
             port: 3000,
-            open: true
+            open: true,
+            proxy: {
+                '/api': 'http://localhost:3001'
+            }
         },
         devtool: 'source-map',
         resolve: {

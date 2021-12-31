@@ -2,7 +2,7 @@ import React from 'react';
 import MapWorkImg from '../assets/SVG/mapWork.svg'
 
 const Trayectoria = ()=>(
-    <main className='md:flex md:items-center pt-14 md:px-32'>
+    <main id='trayectoria' className='bg-misc-4 md:flex md:items-center pt-14 md:px-32'>
         <div className='md:w-2/4'>
             <h2 className='text-white text-center font-bold text-3xl mb-4 md:mb-10'>Trayectoria</h2>
             <p className='text-white text-base text-center leading-8 my-10 px-4'>Empecé a programar a los 16 años en c ++, ya que
