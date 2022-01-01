@@ -42,6 +42,13 @@ const config = () => {
                 {
                     test: /\.(png|jp(e*)g|jpeg|gif|)$/i,
                     type: "asset/resource"
+                },
+                {
+                    test: /\.(otf|pdf)$/,
+                    loader: "file-loader",
+                    options: {
+                        name: "images/[hash]-[name].[ext]"
+                    }
                 }
             ]
         },
